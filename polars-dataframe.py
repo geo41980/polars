@@ -17,3 +17,4 @@ df2 = pl.DataFrame(
 df.dtypes
 df.columns 
 df.rows()
+df.select('Modell')

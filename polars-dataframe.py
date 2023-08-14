@@ -20,4 +20,4 @@ df = pl.DataFrame(
 #df.select(pl.col(pl.Int64))
 df.row(1)   # erste Zeile abrufen
 #df.select('Modell')
-
+df.filter(pl.col('Unternehmen') == 'Apple')

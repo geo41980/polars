@@ -20,3 +20,4 @@ df.columns    # gibt ['Modell', 'Verkäufe', 'Unternehmen'] zurück
 st.write(df.rows())
 st.write(df.select('Modell'))
 st.write(df.select(['Modell','Unternehmen']))
+st.write(df.select(pl.col(pl.Int64)))

@@ -1,5 +1,8 @@
 import polars as pl
 import streamlit as st
+import pygwalker as pyg
+
+gwalker = pyg.walk(df)
 
 df = pl.DataFrame(
     {

@@ -18,6 +18,6 @@ df = pl.DataFrame(
 #df.columns 
 #df.select(['Modell','Unternehmen'])
 #df.select(pl.col(pl.Int64))
-df.rows(0)
+df.row(0)   # erste Zeile abrufen
 #df.select('Modell')
 

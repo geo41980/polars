@@ -18,3 +18,4 @@ df.dtypes
 df.columns 
 df.rows()
 df.select('Modell')
+df.select(['Modell','Unternehmen'])

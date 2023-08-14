@@ -19,3 +19,4 @@ df.dtypes
 df.columns    # gibt ['Modell', 'Verkäufe', 'Unternehmen'] zurück
 st.write(df.rows())
 st.write(df.select('Modell'))
+st.write(df.select(['Modell','Unternehmen']))

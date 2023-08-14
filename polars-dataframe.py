@@ -8,12 +8,12 @@ df = pl.DataFrame(
     }
 )
 #df
-df2 = pl.DataFrame(
-    {
-        "0" : [1,2,3],
-        "1" : [80,170,130],
-    }
-)
+#df2 = pl.DataFrame(
+#    {
+#        "0" : [1,2,3],
+#        "1" : [80,170,130],
+#    }
+#)
 #df.dtypes
 #df.columns 
 df.select(['Modell','Unternehmen'])

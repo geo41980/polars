@@ -26,3 +26,4 @@ st.write(df.select([pl.col(pl.Utf8)]))
 st.write(df.row(0))   # erste Zeile abrufen
 st.write(df.filter(pl.col('Unternehmen') == 'Apple'))         
 st.write(df.filter((pl.col('Unternehmen') == 'Apple') | (pl.col('Unternehmen') == 'Samsung')))
+st.write(df.filter(pl.col('Unternehmen') == 'Apple').select('Modell'))

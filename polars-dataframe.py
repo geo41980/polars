@@ -16,6 +16,7 @@ df2 = pl.DataFrame(
 )
 df.dtypes
 df.columns 
+df.select(['Modell','Unternehmen'])
 df.rows()
 df.select('Modell')
-df.select(['Modell','Unternehmen'])
+

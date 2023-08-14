@@ -19,4 +19,4 @@ if df is not None:
     st.write(html_output, unsafe_allow_html=True)
     #st.markdown(html_output, unsafe_allow_html=True)
 else:
-    st.write("Es wurde keine CSV-Datei hoch geladen."
+    st.write("Es wurde keine CSV-Datei hoch geladen.")

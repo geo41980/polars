@@ -3,8 +3,6 @@ import pandas as pd
 import streamlit as st
 import pygwalker as pyg
 
-df = pl.read_csv('./For_Analysis_in_R.csv',try_parse_dates = True)
-walker = pyg.walk(df)
 
 df = pl.DataFrame(
     {
@@ -33,3 +31,6 @@ st.write(df.filter(pl.col('Unternehmen') == 'Apple'))
 st.write(df.filter((pl.col('Unternehmen') == 'Apple') | (pl.col('Unternehmen') == 'Samsung')))
 st.write(df.filter(pl.col('Unternehmen') == 'Apple').select('Modell'))
 st.write(df.filter(pl.col('Unternehmen') == 'Apple').select(['Modell','Verkäufe']))
+
+df = pl.read_csv('./For_Analysis_in_R.csv',try_parse_dates = True)
+walker = pyg.walk(df)

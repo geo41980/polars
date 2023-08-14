@@ -1,7 +1,7 @@
 import polars as pl
 
 s = pl.Series("a", [1, 2, 3, 4, 5])
-s
+#s
 
 df2 = pl.DataFrame(
     {
@@ -10,4 +10,3 @@ df2 = pl.DataFrame(
     }
 )
 df.select('Modell')
-df

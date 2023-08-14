@@ -1,5 +1,5 @@
 import polars as pl
-import streamolit as st
+import streamlit as st
 
 df = pl.DataFrame(
     {

@@ -15,4 +15,5 @@ df2 = pl.DataFrame(
         "1" : [80,170,130],
     }
 )
+df.dtypes
 st.write(df.select('Modell'))

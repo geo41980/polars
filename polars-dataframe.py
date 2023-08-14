@@ -18,3 +18,4 @@ df2 = pl.DataFrame(
 df.dtypes
 st.write(df.select('Modell'))
 df.columns    # gibt ['Modell', 'Verkäufe', 'Unternehmen'] zurück
+df.rows(0)

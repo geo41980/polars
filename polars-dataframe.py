@@ -17,7 +17,7 @@ df = pl.DataFrame(
 #df.dtypes
 #df.columns 
 #df.select(['Modell','Unternehmen'])
-df.select(pl.col(pl.Int64))
-#df.rows()
+#df.select(pl.col(pl.Int64))
+df.rows(0)
 #df.select('Modell')
 

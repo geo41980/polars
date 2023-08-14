@@ -1,0 +1,4 @@
+streamlit==1.21.0
+polars==0.17.1
+pandas==1.5.3
+Python==3.9.16

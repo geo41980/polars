@@ -7,16 +7,16 @@ df = pl.DataFrame(
         'Unternehmen': ['Apple','Apple','Apple','Apple','Samsung','Samsung','Xiao Mi','Xiao Mi'],
     }
 )
-df
+#df
 df2 = pl.DataFrame(
     {
         "0" : [1,2,3],
         "1" : [80,170,130],
     }
 )
-df.dtypes
-df.columns 
+#df.dtypes
+#df.columns 
 df.select(['Modell','Unternehmen'])
-df.rows()
-df.select('Modell')
+#df.rows()
+#df.select('Modell')
 

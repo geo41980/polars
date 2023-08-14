@@ -1,8 +1,10 @@
 import polars as pl
+import pandas as pd
 import streamlit as st
 import pygwalker as pyg
 
-gwalker = pyg.walk(df)
+df = pl.read_csv('./bike_sharing_dc.csv',try_parse_dates = True)
+walker = pyg.walk(df)
 
 df = pl.DataFrame(
     {

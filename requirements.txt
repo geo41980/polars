@@ -1,6 +1,6 @@
-streamlit==1.25.0
-polars==0.18.13
-pandas==2.0.3
-numpy==1.25.2
-plotly==5.16.0
-pillow==10.0.0
+streamlit
+polars
+pandas
+numpy
+plotly
+pillow

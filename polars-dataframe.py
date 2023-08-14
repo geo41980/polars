@@ -15,3 +15,4 @@ df2 = pl.DataFrame(
     }
 )
 df.dtypes
+df.columns 

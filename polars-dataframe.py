@@ -14,4 +14,4 @@ df2 = pl.DataFrame(
         "1" : [80,170,130],
     }
 )
-df.select('Modell')
+st.write(df.select('Modell'))

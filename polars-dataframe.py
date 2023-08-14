@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import pygwalker as pyg
 
-df = pl.read_csv('./bike_sharing_dc.csv',try_parse_dates = True)
+df = pl.read_csv('./For_Analysis_in_R.csv',try_parse_dates = True)
 walker = pyg.walk(df)
 
 df = pl.DataFrame(

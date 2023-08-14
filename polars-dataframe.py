@@ -24,4 +24,4 @@ st.write(df.select(pl.col(pl.Int64)))
 st.write(df.select(pl.col(['Modell','Verkäufe']).sort_by('Verkäufe')))
 st.write(df.select([pl.col(pl.Utf8)]))
 st.write(df.row(0))   # erste Zeile abrufen
-         
+st.write(df.filter(pl.col('Unternehmen') == 'Apple'))         

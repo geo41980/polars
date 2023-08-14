@@ -46,7 +46,7 @@ with header_mid:
 ############################## FIRST FILTER STATE ##############################
 
 with st.sidebar:
-    State_List = df.lazy().select(pl.col('State')).unique().collect().to_series().to_list()
+    State_List = df.collect().to_pandas()["State"].unique().tolist()
 
     # State_Selected = st.selectbox(label="Select State",
     #                               options = State_List)
